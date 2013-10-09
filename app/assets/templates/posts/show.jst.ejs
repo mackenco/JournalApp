@@ -1,0 +1,25 @@
+<div class="title">
+  <h1 class="show" class=""><%= post.attributes.title %></h1>
+  <!--  -->
+  <form class="hide edit">
+    <input name="post[title]"
+     id="post_title"
+     value="<%= post.attributes.title %>">
+  </form>
+</div>
+
+<div class="body">
+  <div class="show"><%= post.attributes.body %></div>
+
+  <form class="hide edit">
+    <textarea name="post[body]"
+    rows="15" cols="50"
+     id="post_body"><%= post.attributes.body %></textarea>
+  </form>
+</div>
+
+
+<a href="#/">Back to list</a>
+<a href="#/posts/<%=post.attributes.id%>/edit">Edit Post</a>
+
+

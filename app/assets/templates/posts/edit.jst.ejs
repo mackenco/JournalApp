@@ -1,0 +1,11 @@
+<h1>Post form:</h1>
+<form>
+  <label>Title
+    <input name="post[title]" id="post_title"
+      value="<%= post.attributes.title %>"></label>
+
+  <label>Body
+    <input name="post[body]" id="post_body" value="<%= post.attributes.body %>"></label>
+  <input type="submit" value="submit" class="edit">
+</form>
+

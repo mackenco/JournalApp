@@ -1,0 +1,4 @@
+JournalApp
+==========
+
+A Journaling App.

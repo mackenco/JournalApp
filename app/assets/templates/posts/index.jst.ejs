@@ -1,0 +1,11 @@
+<ul>
+  <% _(posts).each(function (post){ %>
+    <li class="post">
+      <a href="#/posts/<%= post.attributes.id %>">
+        <%= post.attributes.title %>
+      </a>
+    </li>
+  <% }); %>
+</ul>
+
+<a href="#/posts/create">Create a Post</a>

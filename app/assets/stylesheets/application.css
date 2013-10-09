@@ -1,0 +1,10 @@
+div#content {
+  margin: 10px;
+  border: 5px dashed blue;
+  width: 500px;
+  font-family: sans-serif;
+}
+
+.hide {
+  display: none;
+}
